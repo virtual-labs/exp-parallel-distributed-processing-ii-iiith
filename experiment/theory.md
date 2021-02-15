@@ -40,13 +40,13 @@ A constraint satisfaction model can be displayed by means of a Hinton diagram as
 
 
 
+
 **Figure 2**: *Hinton diagram for the 'rooms' example.*
 
 
 The model is allowed to relax by computing the next state for each unit selected at random, computing sum of its weighted inputs and thresholding the weighted sum using a hard-limiting output function. For a given external evidence, say like 'oven' and 'ceiling' in the following figure, the state of the network after each cycle is shown in the figure. After 17 cycles the model settles down to an equilibrium state closest to the given external evidence, and the state description gives a description of the concept of the room satisfying the external evidence, namely 'kitchen', in this case. Thus the PDP model clearly demonstrates the concepts of rooms captured by the weak constraints derived from the data given by the subjects. The model captures the concepts of the five room types at the equilibrium states corresponding to the description that best fits each room type. A goodness-of-fit function (g) is defined for each state (\(x_1,x_2, ...,x_N)\) , where \(x_i\) = 1 or 0, as $$ g = \sum\limits_{i,j=1}^{N}w_{ij} x_i x_j + \sum\limits_{i=1}^{N} e_i x_i + \sum\limits_{i=1}^{N} b_i x_i \qquad(3)$$
 
 where \(e_i\) is the external input given as output of the \(i^{th}\) unit and \(b_i\) is the bias of the unit \(i\). At each of the equilibrium states the goodness-of-fit function is maximum. The model not only captures the concepts of the room types, but it also gives an idea of their relative separation in the 40 dimensional space.
-
 
 
 #### FORMULAE USED
