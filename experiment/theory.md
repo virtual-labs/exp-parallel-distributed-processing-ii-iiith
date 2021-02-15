@@ -79,8 +79,6 @@ In this experiment, we use the PDP model called the Constraint Satisfaction Mode
 
 The constraint satisfaction model which is illustrated in this experiment is already trained. We can view the model using Hinton Diagram by clicking on the "CLICK" button on top. A new panel showing the Hinton Diagram for all the descriptors appears where 40 hypotheses have their corresponding squares with constraints between them and other hypotheses being displayed within the larger square. Moving the mouse over the squares presents their zoomed picture at the bottom of the page.
 
-
-
 <img src="images/CSNN_2.png">
 
 
