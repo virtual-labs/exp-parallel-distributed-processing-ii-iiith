@@ -1,1 +1,1 @@
-## Parallel and distributed processing - II: Constraint satisfaction neural network models
+## Perceptron learning
