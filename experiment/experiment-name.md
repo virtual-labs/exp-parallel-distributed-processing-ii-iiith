@@ -1,1 +1,1 @@
-## Experiment name
+## Parallel and distributed processing - II: Constraint satisfaction neural network models
